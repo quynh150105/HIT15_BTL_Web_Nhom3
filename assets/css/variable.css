@@ -1,0 +1,9 @@
+@import "font.css";
+
+:root {
+  --color-primary: #002261;
+  --color-secondary: #2ea6f7;
+  --color-tartiary: #70c4c5;
+  --color-fourth: #0091bc;
+  --text-font: "Poppins", Rubik;
+}
