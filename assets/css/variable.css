@@ -5,5 +5,8 @@
   --color-secondary: #2ea6f7;
   --color-tartiary: #70c4c5;
   --color-fourth: #0091bc;
-  --text-font: "Poppins", Rubik;
+  --heading-color: #222;
+  --body-color: #636363;
+  --heading-font: "Poppins", sans-serif;
+  --body-font: "Rubik", sans-serif;
 }
