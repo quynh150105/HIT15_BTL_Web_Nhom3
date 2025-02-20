@@ -180,6 +180,151 @@ i{
     Footer
 ---------------------------------------- */
 
+
+footer p,
+footer a,
+footer h4,
+footer li {
+  color: white;
+}
+
+.main_footer {
+  background-image: url("../../assets/images/footer_bg.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  gap: 11vh;
+  margin-top: 60px;
+  /* padding-top: 2vh; */
+  /* justify-content: space-between; */
+}
+
+.main_footer_highlight {
+  position: relative;
+  background-color: var(--color-secondary);
+  height: 40%;
+  padding-left: 8vh;
+  padding-right: 8vh;
+  padding-bottom: 5.7vh;
+  /* align-items: center;
+  justify-content: center; */
+  margin-top: -26px;
+  margin-left: 8vh;
+  border-radius: 1vh;
+}
+
+.main_footer_highlight_content {
+  display: flex;
+  flex-direction: column;
+  gap: 6vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.footer_contact_item {
+  color: white;
+  padding-bottom: 2vh;
+}
+
+.footer_contact_item i {
+  padding-right: 1vh;
+}
+
+.footer_infor {
+  display: flex;
+  justify-content: space-between;
+  gap: 8vh;
+}
+
+.footer_logo {
+  border-bottom: 1px solid white;
+}
+
+.main_footer_highlight .footer_logo,
+.footer_contact {
+  padding: 1vh;
+  gap: 6px;
+}
+
+.footer_infor_list {
+  display: flex;
+  flex-direction: column;
+  padding: 13vh 0;
+  gap: 2vh;
+}
+
+#footer_infor_list_right {
+  width: 40%;
+}
+
+.footer_nav_list li {
+  margin-bottom: 2vh;
+}
+
+.recent_post_text h4 {
+  width: max-content;
+}
+
+.recent_post_text h4 a:hover {
+  color: var(--color-secondary);
+}
+
+.recent_post {
+  gap: 2vh;
+}
+
+.recent_post_text {
+  margin-top: 2vh;
+}
+.footer_nav_list li:hover a {
+  color: var(--color-secondary);
+}
+
+.main_footer,
+.recent_post {
+  display: flex;
+  /* gap: 8vh; */
+  /* align-items: center; */
+}
+
+.recent_post_title a {
+  font-size: 16px;
+  height: 20%;
+}
+
+.footer_infor_list {
+  width: 50%;
+}
+
+.footer_bottom {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 8.5vh;
+  padding-right: 8.5vh;
+  padding-bottom: 8vh;
+  padding-top: 6vh;
+  height: 8vh;
+  font-size: 18px;
+}
+
+.footer_bottom_nav {
+  display: flex;
+  gap: 10vh;
+}
+
+.footer_bottom_nav a:hover {
+  color: var(--color-secondary);
+}
+/*main*/
+section{
+    padding: 20px 250px 20px 250px;
+}
+section{
+    margin-top: 100px;
+}
+=======
 footer p,footer a, footer h4, footer li{
     color: white;
 } 
@@ -213,6 +358,7 @@ footer p,footer a, footer h4, footer li{
 section{
     padding: 20px 250px 20px 250px;
 }
+
 .main1 {
     font-family: (--body-font);
     margin: 0;
