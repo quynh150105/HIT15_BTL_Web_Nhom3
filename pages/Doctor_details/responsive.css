@@ -1,0 +1,114 @@
+/* Responsive cho màn hình nhỏ hơn 1200px */
+@media (max-width: 1200px) {
+    section {
+      padding: 20px 150px;
+    }
+  
+    .profile-details h2 {
+      font-size: 30px;
+    }
+  
+    .profile-details p {
+      font-size: 18px;
+    }
+  }
+  
+  /* Responsive cho màn hình nhỏ hơn 992px */
+  @media (max-width: 992px) {
+    section {
+      padding: 20px 80px;
+    }
+  
+    .main1 {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .left {
+      width: 80%;
+    }
+  
+    .right {
+      width: 100%;
+      padding-left: 0;
+      margin-top: 20px;
+    }
+  
+    .info-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .main3 {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  /* Responsive cho màn hình nhỏ hơn 768px */
+  @media (max-width: 768px) {
+    section {
+      padding: 20px 30px;
+    }
+  
+    .profile-details h2 {
+      font-size: 26px;
+    }
+  
+    .profile-details p {
+      font-size: 16px;
+    }
+  
+    .info-item {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .team-container {
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .team-member h3 {
+      font-size: 1rem;
+    }
+  
+    .team-member p {
+      font-size: 0.85rem;
+    }
+  }
+  
+  /* Responsive cho màn hình nhỏ hơn 576px */
+  @media (max-width: 576px) {
+    section {
+      padding: 10px;
+    }
+  
+    .main1 {
+      flex-direction: column;
+    }
+  
+    .left {
+      width: 100%;
+    }
+  
+    .profile-details h2 {
+      font-size: 22px;
+    }
+  
+    .profile-details p {
+      font-size: 14px;
+    }
+  
+    .info-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .team-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .team-member img {
+      height: 150px;
+      object-fit: cover;
+    }
+  }
+  

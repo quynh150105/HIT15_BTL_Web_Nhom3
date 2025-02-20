@@ -210,6 +210,7 @@ footer p,footer a, footer h4, footer li{
     display: flex;
     justify-content: space-between;
 }
+/*main*/
 section{
     padding: 20px 250px 20px 250px;
 }

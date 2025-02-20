@@ -249,11 +249,16 @@ footer p,footer a, footer h4, footer li{
     font-weight: bold;
     margin-top: 5px;
   }
-
+  .schedule-table td:hover  span {
+    color:white;
+  }
   .schedule-table td .detail {
     color: #666;
     font-size: 0.8rem;
     margin-top: 5px;
+  }
+  .schedule-table td:hover .detail{
+    color: white;
   }
   .schedule-table td:hover {
     background-color: #007bff;
