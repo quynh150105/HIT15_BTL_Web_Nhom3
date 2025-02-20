@@ -180,6 +180,7 @@ i{
     Footer
 ---------------------------------------- */
 
+
 footer p,
 footer a,
 footer h4,
@@ -323,6 +324,41 @@ section{
 section{
     margin-top: 100px;
 }
+=======
+footer p,footer a, footer h4, footer li{
+    color: white;
+} 
+
+.main_footer{
+    background-image: url("../../assets/images/footer_bg.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.main_footer_highlight{
+    position: relative;
+    background-color: var(--color-secondary);
+    height:300px;
+    top: 0px;
+}
+
+.main_footer .footer_infor,
+.recent_post{
+    display: flex;
+}
+
+.footer_bottom{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+section{
+    padding: 20px 250px 20px 250px;
+}
+
 .main1 {
     font-family: (--body-font);
     margin: 0;

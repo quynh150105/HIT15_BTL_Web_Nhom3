@@ -316,14 +316,17 @@ footer li {
   color: var(--color-secondary);
 }
 /*main*/
+
 .main1 h4{
     text-align: center;
     color: #007BFF;
     padding-bottom: 20px;
 }
+
 .main1 h4{
     padding-top: 100px;
 }
+
 .main1 h2{
     font-size: 30px;
     text-align: center;
@@ -362,14 +365,17 @@ footer li {
   .schedule-table td:hover  span {
     color:white;
   }
+
   .schedule-table td .detail {
     color: #666;
     font-size: 0.8rem;
     margin-top: 5px;
   }
+
   .schedule-table td:hover .detail{
     color: white;
   }
+
   .schedule-table td:hover {
     background-color: #007bff;
     color: #fff;
