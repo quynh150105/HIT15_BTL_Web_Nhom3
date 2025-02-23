@@ -1,0 +1,139 @@
+/* Responsive cho màn hình nhỏ hơn 992px */
+@media (max-width: 992px) {
+    .schedule-table th, 
+    .schedule-table td {
+      padding: 8px;
+      font-size: 0.85rem;
+    }
+  
+    .schedule-table td span {
+      font-size: 0.8rem;
+    }
+  
+    .schedule-table td .detail {
+      font-size: 0.7rem;
+    }
+  }
+  
+  /* Responsive cho màn hình nhỏ hơn 768px */
+  @media (max-width: 768px) {
+    .schedule-section {
+      overflow-x: auto;
+    }
+  
+    .schedule-table {
+      width: 100%;
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+  
+    .schedule-table th, 
+    .schedule-table td {
+      font-size: 0.8rem;
+      padding: 6px;
+    }
+  
+    .main1 h2 {
+      font-size: 26px;
+    }
+  
+    .main1 h4 {
+      font-size: 18px;
+    }
+  }
+  
+  /* Responsive cho màn hình nhỏ hơn 576px */
+  @media (max-width: 576px) {
+    .schedule-table thead {
+      display: none;
+    }
+  
+    .schedule-table, 
+    .schedule-table tbody, 
+    .schedule-table tr, 
+    .schedule-table td {
+      display: block;
+      width: 100%;
+    }
+  
+    .schedule-table tr {
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      padding: 10px;
+      background-color: #f9f9f9;
+    }
+  
+    .schedule-table td {
+      text-align: left;
+      padding: 10px;
+      position: relative;
+      font-size: 0.9rem;
+    }
+  
+    .schedule-table td::before {
+      content: attr(data-label);
+      font-weight: bold;
+      display: block;
+      color: #007bff;
+    }
+  }
+  /*footer*/
+  @media screen and (max-width: 74.5em) {
+    .main_header_inner {
+      padding-left: 2vh !important;
+    }
+  }
+  
+  @media screen and (max-width: 64em) {
+    .main_header_right {
+      padding-left: 1.4vh !important;
+    }
+    /* responsive header */
+  
+    .nav_list {
+      display: none !important;
+    }
+    .top_header {
+      display: none;
+    }
+    /* responsive footer */
+  
+    .footer_bottom {
+      flex-direction: column;
+      gap: 2vh;
+      justify-content: center;
+    }
+  
+    .footer_bottom_nav {
+      margin-bottom: 4px;
+      gap: 3vh !important;
+    }
+  }
+  
+  @media screen and (max-width: 46.1875em) {
+    .nav_contact {
+      display: none;
+    }
+  
+    .top_header {
+      display: none;
+    }
+    /* responsive footer */
+  
+    .footer_infor {
+      flex-direction: column;
+      gap: 0 !important;
+    }
+  
+    .footer_infor_list {
+      padding: 8px 0 !important;
+    }
+  
+    #footer_infor_list_right {
+      padding-bottom: 8px !important;
+    }
+  
+    .footer_bottom {
+    }
+  }
